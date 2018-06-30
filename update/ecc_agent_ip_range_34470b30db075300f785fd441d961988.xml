@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_ip_range">
+    <ecc_agent_ip_range action="INSERT_OR_UPDATE">
+        <name>MID2</name>
+        <range>10.11.105.71</range>
+        <sys_class_name>ecc_agent_ip_range</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-29 23:59:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34470b30db075300f785fd441d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID2</sys_name>
+        <sys_package display_value="test-pin-workflow" source="x_snc_test_pin_wor">f0693a3cdb4b530090f7ffa31d96190b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test-pin-workflow">f0693a3cdb4b530090f7ffa31d96190b</sys_scope>
+        <sys_update_name>ecc_agent_ip_range_34470b30db075300f785fd441d961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-29 23:59:36</sys_updated_on>
+        <type>include</type>
+    </ecc_agent_ip_range>
+</record_update>
