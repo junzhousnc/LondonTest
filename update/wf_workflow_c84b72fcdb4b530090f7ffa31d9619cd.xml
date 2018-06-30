@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"activities":{},"subflows":[],"ends":["8c4b72fcdb4b530090f7ffa31d9619cf"],"stages":{}}</activity_stages>
+        <activity_stages>{"activities":{},"subflows":[],"ends":["fc7f4f7cdb8b530090f7ffa31d961991"],"stages":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type/>
         <description/>
-        <expected_sequences>084b72fcdb4b530090f7ffa31d9619ce,7a9b3630db8b530090f7ffa31d9619c5,d25003f0db8b530090f7ffa31d9619ba,8c4b72fcdb4b530090f7ffa31d9619cf</expected_sequences>
+        <expected_sequences>f87f4f7cdb8b530090f7ffa31d96198f,41ef0f7cdb8b530090f7ffa31d961978,fc7f4f7cdb8b530090f7ffa31d961992,fc7f4f7cdb8b530090f7ffa31d961991</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>084b72fcdb4b530090f7ffa31d9619ce,7a9b3630db8b530090f7ffa31d9619c5,d25003f0db8b530090f7ffa31d9619ba,8c4b72fcdb4b530090f7ffa31d9619cf</full_sequences>
+        <full_sequences>f87f4f7cdb8b530090f7ffa31d96198f,41ef0f7cdb8b530090f7ffa31d961978,fc7f4f7cdb8b530090f7ffa31d961992,fc7f4f7cdb8b530090f7ffa31d961991</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>test-pin-workflow</name>
@@ -27,13 +27,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">084b72fcdb4b530090f7ffa31d9619ce</start>
+        <start display_value="Begin">f87f4f7cdb8b530090f7ffa31d96198f</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:06:55</sys_created_on>
-        <sys_id>94e9b2fcdb4b530090f7ffa31d961980</sys_id>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>bc7f4f7cdb8b530090f7ffa31d96198d</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-30 00:11:18</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:37:30</sys_updated_on>
         <table>global</table>
         <timezone/>
         <validated>false</validated>
@@ -79,21 +79,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:06:55</sys_created_on>
-        <sys_id>084b72fcdb4b530090f7ffa31d9619ce</sys_id>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>f87f4f7cdb8b530090f7ffa31d96198f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:06:55</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:35:10</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="test-pin-workflow">94e9b2fcdb4b530090f7ffa31d961980</workflow_version>
+        <workflow_version display_value="test-pin-workflow">bc7f4f7cdb8b530090f7ffa31d96198d</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=084b72fcdb4b530090f7ffa31d9619ce"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f87f4f7cdb8b530090f7ffa31d96198f"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">084b72fcdb4b530090f7ffa31d9619ce</activity>
+        <activity display_value="Begin">f87f4f7cdb8b530090f7ffa31d96198f</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -107,11 +107,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:06:55</sys_created_on>
-        <sys_id>044b72fcdb4b530090f7ffa31d9619cf</sys_id>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>b47f4f7cdb8b530090f7ffa31d961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:06:55</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:35:10</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -129,25 +129,25 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:06:56</sys_created_on>
-        <sys_id>8c4b72fcdb4b530090f7ffa31d9619cf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>fc7f4f7cdb8b530090f7ffa31d961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:29:25</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:35:10</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="test-pin-workflow">94e9b2fcdb4b530090f7ffa31d961980</workflow_version>
+        <workflow_version display_value="test-pin-workflow">bc7f4f7cdb8b530090f7ffa31d96198d</workflow_version>
         <x>509</x>
         <y>382</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=8c4b72fcdb4b530090f7ffa31d9619cf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fc7f4f7cdb8b530090f7ffa31d961991"/>
     <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="test1-runScript">9f9f7ab0db8b530090f7ffa31d9619b1</activity_definition>
+        <activity_definition display_value="test1-runScript">ddfec33cdb8b530090f7ffa31d96196a</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>3</databus_lookup_id>
+        <databus_lookup_id>5</databus_lookup_id>
         <height/>
-        <input>{"input1":"done"}</input>
+        <input>{"input1":"done","input12":"donenot"}</input>
         <is_parent>false</is_parent>
         <name>test1-runScript</name>
         <new_activity_definition/>
@@ -158,23 +158,23 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:10:40</sys_created_on>
-        <sys_id>7a9b3630db8b530090f7ffa31d9619c5</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_created_on>2018-06-30 00:37:23</sys_created_on>
+        <sys_id>41ef0f7cdb8b530090f7ffa31d961978</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:29:29</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:37:24</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="test-pin-workflow">94e9b2fcdb4b530090f7ffa31d961980</workflow_version>
-        <x>117</x>
-        <y>142</y>
+        <workflow_version display_value="test-pin-workflow">bc7f4f7cdb8b530090f7ffa31d96198d</workflow_version>
+        <x>316</x>
+        <y>53</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=7a9b3630db8b530090f7ffa31d9619c5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=41ef0f7cdb8b530090f7ffa31d961978"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="test1-runScript">7a9b3630db8b530090f7ffa31d9619c5</activity>
+        <activity display_value="test1-runScript">41ef0f7cdb8b530090f7ffa31d961978</activity>
         <condition>activityOutput.output1 == 'done'</condition>
-        <condition_default display_value="condition1">6b99f27cdb4b530090f7ffa31d9619a3</condition_default>
+        <condition_default display_value="condition1">9dfec33cdb8b530090f7ffa31d96196b</condition_default>
         <condition_type>standard</condition_type>
         <else_flag>false</else_flag>
         <error>false</error>
@@ -182,18 +182,18 @@
         <event_name/>
         <is_positive>false</is_positive>
         <name>condition1</name>
-        <order>-1</order>
+        <order>1</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:10:40</sys_created_on>
-        <sys_id>8b1c3230db8b530090f7ffa31d961977</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-06-30 00:37:23</sys_created_on>
+        <sys_id>91ff4f7cdb8b530090f7ffa31d9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:16:54</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:37:23</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="test2-runScript">85ef7eb0db8b530090f7ffa31d961934</activity_definition>
+        <activity_definition display_value="test2-runScript">290f4b7cdb8b530090f7ffa31d961970</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
         <databus_lookup_id>4</databus_lookup_id>
         <height/>
@@ -208,21 +208,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:29:22</sys_created_on>
-        <sys_id>d25003f0db8b530090f7ffa31d9619ba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>fc7f4f7cdb8b530090f7ffa31d961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:29:32</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:35:10</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="test-pin-workflow">94e9b2fcdb4b530090f7ffa31d961980</workflow_version>
+        <workflow_version display_value="test-pin-workflow">bc7f4f7cdb8b530090f7ffa31d96198d</workflow_version>
         <x>337</x>
         <y>262</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=d25003f0db8b530090f7ffa31d9619ba"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fc7f4f7cdb8b530090f7ffa31d961992"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="test2">d25003f0db8b530090f7ffa31d9619ba</activity>
+        <activity display_value="test2">fc7f4f7cdb8b530090f7ffa31d961992</activity>
         <condition>activityOutput.output2 == 'done'</condition>
         <condition_default display_value="test2">57effab0db8b530090f7ffa31d961918</condition_default>
         <condition_type>standard</condition_type>
@@ -232,62 +232,62 @@
         <event_name/>
         <is_positive>false</is_positive>
         <name>test2</name>
-        <order>1</order>
+        <order>-1</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:29:22</sys_created_on>
-        <sys_id>c16043f0db8b530090f7ffa31d96196f</sys_id>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>787f4f7cdb8b530090f7ffa31d961993</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:29:22</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:35:10</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">044b72fcdb4b530090f7ffa31d9619cf</condition>
-        <from display_value="Begin">084b72fcdb4b530090f7ffa31d9619ce</from>
+        <condition display_value="test2">787f4f7cdb8b530090f7ffa31d961993</condition>
+        <from display_value="test2">fc7f4f7cdb8b530090f7ffa31d961992</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:06:56</sys_created_on>
-        <sys_id>444b72fcdb4b530090f7ffa31d9619d0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:10:41</sys_updated_on>
-        <to display_value="test1-runScript">7a9b3630db8b530090f7ffa31d9619c5</to>
-    </wf_transition>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="condition1">8b1c3230db8b530090f7ffa31d961977</condition>
-        <from display_value="test1-runScript">7a9b3630db8b530090f7ffa31d9619c5</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:10:41</sys_created_on>
-        <sys_id>c31c7630db8b530090f7ffa31d961935</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:29:23</sys_updated_on>
-        <to display_value="test2">d25003f0db8b530090f7ffa31d9619ba</to>
-    </wf_transition>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="test2">c16043f0db8b530090f7ffa31d96196f</condition>
-        <from display_value="test2">d25003f0db8b530090f7ffa31d9619ba</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:29:23</sys_created_on>
-        <sys_id>cd6003f0db8b530090f7ffa31d961993</sys_id>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>b07f4f7cdb8b530090f7ffa31d961995</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:29:23</sys_updated_on>
-        <to display_value="End">8c4b72fcdb4b530090f7ffa31d9619cf</to>
+        <sys_updated_on>2018-06-30 00:35:10</sys_updated_on>
+        <to display_value="End">fc7f4f7cdb8b530090f7ffa31d961991</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="condition1">91ff4f7cdb8b530090f7ffa31d9619e2</condition>
+        <from display_value="test1-runScript">41ef0f7cdb8b530090f7ffa31d961978</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-30 00:37:24</sys_created_on>
+        <sys_id>d5ff8f7cdb8b530090f7ffa31d9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-30 00:37:24</sys_updated_on>
+        <to display_value="test2">fc7f4f7cdb8b530090f7ffa31d961992</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">b47f4f7cdb8b530090f7ffa31d961990</condition>
+        <from display_value="Begin">f87f4f7cdb8b530090f7ffa31d96198f</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>fc7f4f7cdb8b530090f7ffa31d961994</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-30 00:37:24</sys_updated_on>
+        <to display_value="test1-runScript">41ef0f7cdb8b530090f7ffa31d961978</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:06:55</sys_created_on>
-        <sys_id>8c4b72fcdb4b530090f7ffa31d9619cc</sys_id>
+        <sys_created_on>2018-06-30 00:35:10</sys_created_on>
+        <sys_id>707f4f7cdb8b530090f7ffa31d96198e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:06:55</sys_updated_on>
-        <workflow_version display_value="test-pin-workflow">94e9b2fcdb4b530090f7ffa31d961980</workflow_version>
+        <sys_updated_on>2018-06-30 00:35:10</sys_updated_on>
+        <workflow_version display_value="test-pin-workflow">bc7f4f7cdb8b530090f7ffa31d96198d</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=c84b72fcdb4b530090f7ffa31d9619cd^sys_id!=94e9b2fcdb4b530090f7ffa31d961980">
+    <wf_workflow_version action="update_multiple" query="workflow=c84b72fcdb4b530090f7ffa31d9619cd^sys_id!=bc7f4f7cdb8b530090f7ffa31d96198d">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

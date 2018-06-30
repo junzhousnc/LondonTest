@@ -9,53 +9,54 @@
         <default_width/>
         <description/>
         <image>images/heisenberg_icons/workflow_ie8/provider_runscript.png</image>
-        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"input1","type":"STRING","mandatory":false}]}</input_meta>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"input1","type":"STRING","mandatory":false},{"name":"input12","type":"STRING","mandatory":false}]}</input_meta>
         <input_process_script/>
         <input_transform/>
         <local_variables/>
         <name>test1-runScript</name>
-        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"output1","type":"STRING"}]}</output_meta>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"output1","type":"STRING"},{"name":"output12","type":"STRING"}]}</output_meta>
         <output_process_script/>
         <output_transform/>
         <processing_script><![CDATA[gs.info('test1-runscript');
 activityOutput.output1 = activityInput.input1;
+activityOutput.output12 = activityInput.input12;
 ]]></processing_script>
         <sample_payloads>{}</sample_payloads>
         <short_description/>
         <style/>
         <sys_class_name>wf_element_activity</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:25:59</sys_created_on>
-        <sys_id>9f9f7ab0db8b530090f7ffa31d9619b1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2018-06-30 00:33:01</sys_created_on>
+        <sys_id>ddfec33cdb8b530090f7ffa31d96196a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>test1-runScript</sys_name>
         <sys_package display_value="test-pin-workflow" source="x_snc_test_pin_wor">f0693a3cdb4b530090f7ffa31d96190b</sys_package>
         <sys_policy/>
         <sys_scope display_value="test-pin-workflow">f0693a3cdb4b530090f7ffa31d96190b</sys_scope>
-        <sys_update_name>wf_element_activity_9f9f7ab0db8b530090f7ffa31d9619b1</sys_update_name>
+        <sys_update_name>wf_element_activity_ddfec33cdb8b530090f7ffa31d96196a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-30 00:22:57</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:33:06</sys_updated_on>
         <version_container_id>fa99febcdb4b530090f7ffa31d96198a</version_container_id>
     </wf_element_activity>
-    <sys_translated_text action="delete_multiple" query="documentkey=9f9f7ab0db8b530090f7ffa31d9619b1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ddfec33cdb8b530090f7ffa31d96196a"/>
     <wf_versionable action="INSERT_OR_UPDATE">
         <checked_out/>
         <checked_out_by/>
-        <published>false</published>
+        <published>true</published>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:25:59</sys_created_on>
-        <sys_id>d79f7ab0db8b530090f7ffa31d9619b2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2018-06-30 00:33:01</sys_created_on>
+        <sys_id>19fec33cdb8b530090f7ffa31d96196b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-30 00:22:57</sys_updated_on>
-        <valid_from>2018-06-29 23:26:18</valid_from>
+        <sys_updated_on>2018-06-30 00:33:06</sys_updated_on>
+        <valid_from>2018-06-30 00:33:06</valid_from>
         <valid_to/>
-        <version>4</version>
+        <version>6</version>
         <version_container_id>fa99febcdb4b530090f7ffa31d96198a</version_container_id>
-        <wf_element_definition display_value="test1-runScript">9f9f7ab0db8b530090f7ffa31d9619b1</wf_element_definition>
+        <wf_element_definition display_value="test1-runScript">ddfec33cdb8b530090f7ffa31d96196a</wf_element_definition>
     </wf_versionable>
     <wf_condition_default action="INSERT_OR_UPDATE">
-        <activity_definition display_value="test1-runScript">9f9f7ab0db8b530090f7ffa31d9619b1</activity_definition>
+        <activity_definition display_value="test1-runScript">ddfec33cdb8b530090f7ffa31d96196a</activity_definition>
         <condition>activityOutput.output1 == 'done'</condition>
         <derived_definition>6b99f27cdb4b530090f7ffa31d9619a3</derived_definition>
         <else_flag>false</else_flag>
@@ -67,17 +68,17 @@ activityOutput.output1 = activityInput.input1;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-29 23:25:59</sys_created_on>
-        <sys_id>9f9f7ab0db8b530090f7ffa31d9619b2</sys_id>
+        <sys_created_on>2018-06-30 00:33:01</sys_created_on>
+        <sys_id>9dfec33cdb8b530090f7ffa31d96196b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 23:25:59</sys_updated_on>
+        <sys_updated_on>2018-06-30 00:33:01</sys_updated_on>
     </wf_condition_default>
-    <wf_versionable action="update_multiple" query="version_container_id=fa99febcdb4b530090f7ffa31d96198a^sys_id!=d79f7ab0db8b530090f7ffa31d9619b2^version&lt;4">
+    <wf_versionable action="update_multiple" query="version_container_id=fa99febcdb4b530090f7ffa31d96198a^sys_id!=19fec33cdb8b530090f7ffa31d96196b^version&lt;6">
         <published>false</published>
     </wf_versionable>
     <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=fa99febcdb4b530090f7ffa31d96198a">
-        <new_activity_definition>9f9f7ab0db8b530090f7ffa31d9619b1</new_activity_definition>
+        <new_activity_definition>ddfec33cdb8b530090f7ffa31d96196a</new_activity_definition>
         <out_of_date>true</out_of_date>
         <notes>There is a newer version of this activity.
 
